@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet_inscricao.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
+    <title>Stagideia | O programa da Starta para quem quer começar a carreira</title>
+</head>
+<body>
+    <div class="container">
+        <header class="l-header">
+            <img class ="logo" src="img/logo_rodape.png" alt="logo header">
+            <ul class="menu">
+                <li><a href="inscricao.html"  class="inscicao">Inscrição</a></li>
+                <li><a href="index.html"  class="Programa de estágio ESTAGIDEIA">Programa de estágio ESTAGIDEIA</a></li>
+                <li><a href="index.html"  class="O programa">O programa</a></li>
+                <!--<form>
+                    <label for="gsearch">Search Google:</label>
+                    <input type="search" id="gsearch" name="gsearch">
+                </form>-->
+            </ul>
+        </header>
+        <main class="main">
+            <form class="form" action="inscricao.html" method="GET">
+                <fieldset>
+                    <legend>Cadastro do estudante</legend>
+                    <fieldset id="dp1">
+                        <legend>Dados pessoais</legend>
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" size="40" required autocomplete autofocus>
+                        <label for="curso">Curso de ti</label>
+                        <select id="curso">
+                            <option selected="selected">Seu curso</option>
+                            <optgroup label="Bacharelado">
+                                <option value="cc">Ciência da Computação</option>
+                                <option value="ec">Engenharia da Computação</option>
+                            </optgroup>
+                            <optgroup label="Tecnólogos">
+                                <option value="ads">Análise e desenvolvimento de Sitemas</option> 
+                                <option value="si">Sistemas de Informação</option> 
+                            </optgroup>
+                        </select>
+                    </fieldset>
+                    <fieldset id="dp2">
+                        <legend>Dados de contato</legend>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" size="20" required autocomplete="email">
+                            <label for="phone">Enter a phone number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="51-99999-9999" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" size="13">
+                    </fieldset>
+                    <fieldset id="fe">
+                        <legend>Faixa etária</legend>
+                            <div>
+                                <input type="radio" id="idade" name="idade" value="vinte">
+                                <label for="idade">Até 20 anos</label><br> 
+                            </div>
+                            <div>
+                                <input type="radio" id="idade" name="idade" value="trinta">
+                                <label for="idade">Mais 20 até 30 anos</label><br> 
+                            </div>
+                            <div>
+                                <input type="radio" id="idade" name="idade" value="quarenta">
+                                <label for="idade">Mais 30 até 40 anos</label><br> 
+                            </div>
+                            <div>
+                                <input type="radio" id="idade" name="idade" value="cinquenta">
+                                <label for="idade">Mais 40 até 50 anos</label><br> 
+                            </div>
+                            <div>
+                                <input type="radio" id="idade" name="idade" value="sessenta">
+                                <label for="idade">Mais 50 até 60 anos</label><br> 
+                            </div>
+                            <div>
+                                <input type="radio" id="idade" name="idade" value="mais de sessenta">
+                                <label for="idade">Mais de 60 anos</label><br> 
+                            </div>
+                    </fieldset>
+                    <fieldset id="Linguagens de interesses" required autocomplete>
+                        <legend>Linguagens de interesse</legend>
+                            <input type="checkbox" id="linguagem" name="linguagem" value="Java Script">
+                            <label for="">Java Script</label><br>
+                            <input type="checkbox" id="linguagem" name="linguagem" value="Flutter">
+                            <label for="">Flutter</label><br>
+                            <input type="checkbox" id="linguagem" name="linguagem" value="Java">
+                            <label for="">Java</label><br>
+                            <input type="checkbox" id="linguagem" name="linguagem" value="C#">
+                            <label for="">C#</label><br>
+                            <input type="checkbox" id="linguagem" name="linguagem" value="PHP">
+                            <label for="">PHP</label><br>
+                    </fieldset>
+                    <fieldset id="Comentario">
+                        <legend>Conte-nos mais Sobre você</legend>
+                        <label for="mesagem">Mensagem:</label>
+                        <textarea id="mesagem" rows="6" columns="28">Escreva aqui</textarea>
+                    </fieldset>
+                    <input a href="inscricao.html" type="submit" value="Enviar" id="enviar" >
+                    <input type="reset" value="Limpar" id="limpar">
+                </fieldset>
+            </form>
+        </main>
+        <footer1 class="l-footer">
+            <section class="l-footer__contato">
+            Para capitais e regiões metropolitanas: 4007-#### <br>
+            Demais localidades: +55 (51) 3500-8311</section>
+        </footer1>
+        <footer2 class ="l-footer__2">
+        <section class="l-rodape__copy"><small>Copyright &copy;</small></section>
+        <section class="l-rodape__reg"><small>StartaIdeia &reg;</small></section>
+        </footer2>
+    </div>
+</body>
+</html>
